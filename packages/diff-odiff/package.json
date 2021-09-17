@@ -5,7 +5,7 @@
   "keywords": [
     "loki"
   ],
-  "homepage": "https://github.com/oblador/loki/tree/master/packages/odiff",
+  "homepage": "https://github.com/oblador/loki/tree/master/packages/diff-odiff",
   "bugs": {
     "url": "https://github.com/oblador/loki/issues"
   },

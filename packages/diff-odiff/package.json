@@ -1,0 +1,29 @@
+{
+  "name": "@loki/diff-odiff",
+  "version": "0.28.0",
+  "description": "Loki odiff image differ",
+  "keywords": [
+    "loki"
+  ],
+  "homepage": "https://github.com/oblador/loki/tree/master/packages/odiff",
+  "bugs": {
+    "url": "https://github.com/oblador/loki/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oblador/loki.git",
+    "directory": "packages/diff-odiff"
+  },
+  "license": "MIT",
+  "files": [
+    "src"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "odiff-bin": "2.4.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

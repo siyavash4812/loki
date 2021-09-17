@@ -18,5 +18,6 @@
   "reactNativePort": "7007",
   "pixelmatch": {},
   "looksSame": {},
-  "gm": {}
+  "gm": {},
+  "odiff": {}
 }

@@ -48,6 +48,7 @@ function parseOptions(args, config) {
     'looks-same': $('looks-same'),
     gm: $('gm'),
     pixelmatch: $('pixelmatch'),
+    odiff: $('odiff'),
     verboseRenderer: $('verboseRenderer'),
     silent: $('silent'),
     requireReference: $('requireReference') || ciInfo.isCI,

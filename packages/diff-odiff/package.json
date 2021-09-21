@@ -1,6 +1,6 @@
 {
   "name": "@loki/diff-odiff",
-  "version": "0.28.0",
+  "version": "0.28.2-odiff.0",
   "description": "Loki odiff image differ",
   "keywords": [
     "loki"

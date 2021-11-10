@@ -38,7 +38,7 @@ const compare = (path1, path2, instanceConfig, diffPath) =>
 function createGraphicsMagickDiffer(config) {
   return function getImageDiff(path1, path2, diffPath, tolerance) {
     const instanceConfig = { tolerance: tolerance / 100, ...config };
-
+    fs.ensureFileSync(diffPath);
     return Promise.all([getSize(path1), getSize(path2)]).then(
       ([path1Dimensions, path2Dimensions]) => {
         if (
